@@ -3,7 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
-  title: "Wassim Gharbi - Portfolio",
+  title: "Farrel Athalla Putra",
   description: "Software Engineer, Researcher & Designer",
 };
 
