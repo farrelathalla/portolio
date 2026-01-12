@@ -68,7 +68,7 @@ function ProjectCard({
         )}
         {item.isUtility && (
           <span className="text-[10px] font-bold bg-[#facc15] text-black px-1.5 py-0.5 rounded-sm">
-            UTILITY
+            UI/UX
           </span>
         )}
 
@@ -151,8 +151,8 @@ export function ProjectList({
           {fadedItem && !isExpanded && (
             <motion.div
               key="faded-preview"
-              initial={{ opacity: 0.3 }}
-              animate={{ opacity: 0.3 }}
+              initial={{ opacity: 0.9 }}
+              animate={{ opacity: 0.9 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.2 }}
             >

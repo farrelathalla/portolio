@@ -83,7 +83,7 @@ export function ProjectsCarousel() {
 
   return (
     <section className="py-8 overflow-hidden">
-      <div className="container px-4 md:px-0 mb-8 mx-auto max-w-4xl">
+      <div className="container px-4 md:px-6 mb-8 mx-auto max-w-4xl">
         <h2 className="text-[12px] font-semibold tracking-[2px] text-[#737373] uppercase">
           THINGS I MADE
         </h2>
@@ -109,12 +109,20 @@ export function ProjectsCarousel() {
               onMouseEnter={() => setHoveredProject(idx)}
               onMouseLeave={() => setHoveredProject(null)}
             >
-              {/* Placeholder Image because we don't have real files */}
-              <div className="absolute inset-0 bg-stone-800 flex items-center justify-center">
-                <span className="text-stone-500 text-sm font-mono">
-                  {project.title}
-                </span>
-              </div>
+              {/* Project Image */}
+              {project.image ? (
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              ) : (
+                <div className="absolute inset-0 bg-stone-800 flex items-center justify-center">
+                  <span className="text-stone-500 text-sm font-mono">
+                    {project.title}
+                  </span>
+                </div>
+              )}
 
               {/* Hover Overlay - gradient from bottom */}
               <motion.div

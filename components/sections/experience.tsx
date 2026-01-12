@@ -41,7 +41,7 @@ function ExperienceItem({
           </h3>
         </div>
 
-        <span className="text-[12px] font-mono text-stone-400 dark:text-[#525252] tabular-nums">
+        <span className="text-[12px] font-mono text-stone-400 dark:text-[#525252] tabular-nums text-right md:pl-0 pl-4">
           {experience.date}
         </span>
       </div>

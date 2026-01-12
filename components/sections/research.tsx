@@ -19,7 +19,7 @@ export function Research() {
                 {item.venue}
               </p>
             </div>
-            <div className="text-[12px] text-stone-400 dark:text-[#525252] font-mono text-right">
+            <div className="text-[12px] text-stone-400 dark:text-[#525252] font-mono text-right md:pl-0 pl-4">
               {item.date}
               {/* simplified date structure or parse from data */}
             </div>

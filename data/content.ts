@@ -119,51 +119,63 @@ export const ACHIEVEMENTS = [
 
 export const APPS = [
   {
-    title: "Studio - Your photo gallery reimagined",
+    title: "Satu Pintu",
     isNew: true,
     waitlist: true,
     description:
-      "A free photo gallery replacement using Vision AI search, editing and organization.",
-    link: "#",
+      "AI-powered voice assistant for smart city emergency response and citizen services.",
+    link: "https://satu-pintu.vercel.app/",
   },
   {
-    title: "Nubla - The Founder's Dashboard",
+    title: "KSEP ITB",
     isNew: true,
-    description: "Client & Project management for freelancers.",
-    link: "#",
+    description:
+      "Community platform featuring event management, galleries, and member activities.",
+    link: "https://ksepitb.com",
   },
   {
-    title: "CoreViz - Vision AI Workspace",
+    title: "Betterbanknigs",
     isBeta: true,
     description:
-      "Next-gen photo management tool for personal asset and organization.",
+      "Regulatory compliance platform simplifying Basel framework for Indonesian banking sector.",
+    link: "https://betterbankings.vercel.app/",
+  },
+  {
+    title: "Tanikan",
+    waitlist: true,
+    description:
+      "Smart aquaculture monitoring with real-time YOLOv11 aerator detection.",
     link: "#",
   },
   {
-    title: "Rehan - AI Forensics Copilot",
-    isBeta: true,
-    description: "AI-Powered investigation tools for your encrypted messaging.",
-    link: "#",
+    title: "SPE ITB SC",
+    description:
+      "Student chapter hub with events, competitions, member portals, and gamified quizzes.",
+    link: "https://speitbsc.org",
   },
   {
-    title: "Appearance - Shared Photo Albums",
-    description: "Location-based photo sharing app with shared albums.",
-    link: "#",
+    title: "INFEST ITB 2025",
+    description:
+      "Festival platform managing seminars, workshops, competitions, and 1000+ registrations.",
+    link: "https://infestbdg.com",
   },
   {
-    title: "Daily Habits - Tasks & Goals",
-    description: "Simple, minimalist habit tracker and goals.",
-    link: "#",
+    title: "Anmategra",
+    description:
+      "Campus-wide event and participant management system for ITB activities.",
+    link: "https://anmategra.com",
   },
   {
-    title: "Family - Group Chat & Stories",
-    description: "Event-based group chat with collaborative stories.",
-    link: "#",
+    title: "PTD KSEP ITB 2025",
+    description:
+      "Orientation platform with task submissions and real-time announcements for 100+ students.",
+    link: "https://ptdksep.com",
   },
   {
-    title: "Clubpass - Nightlife Membership",
-    isUtility: true, // Just a marker for coloring if needed
-    description: "Nightlife membership & tickets.",
+    title: "UI/UX Portfolio",
+    isUtility: true,
+    description:
+      "Curated collection of 8+ design projects solving real-world problems.",
     link: "#",
   },
 ];
@@ -361,33 +373,52 @@ export const RESEARCH = [
 
 export const PROJECTS_CAROUSEL = [
   {
-    title: "Coreviz Image",
+    title: "SatuPintu",
     description:
-      "Working on a rough prototype of a position-aware universal remote.",
-    date: "Jul 12, 2019",
-    image: "",
-    link: "#",
+      "AI-powered voice call system using VAPI and Gemini for smart city services.",
+    date: "Dec 11, 2025",
+    image: "/SatuPintu.webp",
+    link: "https://satu-pintu.vercel.app/#report",
   },
   {
-    title: "Studio Portraits Image",
-    description: "Building a photo gallery replacement using Vision AI.",
-    date: "Mar 5, 2020",
-    image: "",
-    link: "#",
+    title: "SSDS",
+    description:
+      "Singapore rainfall prediction using ARIMAX with OCR integration, achieving MSE 2.26.",
+    date: "Jun 13, 2025",
+    image: "/SSDS.webp",
+    link: "https://www.linkedin.com/in/farrelathallaputra/",
   },
   {
-    title: "Remove Background Image",
-    description: "Experimenting with background removal algorithms.",
-    date: "Nov 18, 2021",
-    image: "",
-    link: "#",
+    title: "Tanikan",
+    description:
+      "Real-time aquaculture monitoring using YOLOv11 for aerator detection.",
+    date: "Nov 26, 2025",
+    image: "/Tanikan.webp",
+    link: "https://www.linkedin.com/in/farrelathallaputra/",
   },
   {
-    title: "Solar System Image",
-    description: "Interactive 3D solar system visualization project.",
-    date: "Feb 22, 2022",
-    image: "",
-    link: "#",
+    title: "Legali AI",
+    description:
+      "UI/UX design for AI-powered legal assistant enabling seamless law queries.",
+    date: "Oct 7, 2025",
+    image: "/Legs.webp",
+    link: "https://legali.ai/",
+  },
+  {
+    title: "Intelecta",
+    description:
+      "Audio classification system with feature extraction achieving F1 score of 0.87.",
+    date: "Nov 26, 2025",
+    image: "/inte.webp",
+    link: "https://www.linkedin.com/in/farrelathallaputra/",
+  },
+  {
+    title: "Hology",
+    description:
+      "Crowd detection and counting system using SCALNet and IIM localization models.",
+    date: "Oct 11, 2025",
+    image: "/hology.webp",
+    link: "https://www.linkedin.com/in/farrelathallaputra/",
   },
 ];
 
