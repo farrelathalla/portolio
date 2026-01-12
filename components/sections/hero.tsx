@@ -13,9 +13,14 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="md:text-[60px] text-[40px] font-semibold tracking-[-1.5px] text-stone-900 dark:text-white mb-2">
+          <h1 className="md:text-[60px] text-[40px] font-semibold tracking-[-1.5px] text-stone-900 dark:text-white">
             Farrel Athalla Putra
           </h1>
+          <p className="text-[14px] text-stone-500 dark:text-[#a3a3a3] max-w-xl mb-4 leading-relaxed">
+            Software Engineer and UI/UX designer expanding into AI and Data
+            Science. I build intelligent applications by integrating machine
+            learning models with robust full-stack architecture.
+          </p>
           <div className="flex items-center justify-between mb-16">
             <div className="flex gap-3 text-sm text-stone-500 font-medium">
               {SOCIALS.map((social, idx) => (

@@ -3,7 +3,7 @@ import { Experience } from "@/components/sections/experience";
 import { ProjectsCarousel } from "@/components/sections/projects-carousel";
 import { Research } from "@/components/sections/research";
 import { ProjectList } from "@/components/sections/project-list";
-import { APPS, OPEN_SOURCE, FUN_PROJECTS } from "@/data/content";
+import { APPS, PROJECTS, RESEARCH } from "@/data/content";
 
 export default function Home() {
   return (
@@ -20,8 +20,8 @@ export default function Home() {
 
       <div className="mx-auto max-w-4xl px-4 md:px-6 space-y-8 pb-32">
         <ProjectList title="APPS" items={APPS} />
-        <ProjectList title="OPEN SOURCE" items={OPEN_SOURCE} />
-        <ProjectList title="FUN PROJECTS" items={FUN_PROJECTS} />
+        <ProjectList title="PROJECTS" items={PROJECTS} collapsible />
+        <ProjectList title="RESEARCH" items={RESEARCH} />
       </div>
     </main>
   );
