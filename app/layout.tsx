@@ -42,14 +42,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://farrelathalla.com",
+    url: "https://farrel.me",
     siteName: "Farrel Athalla Putra",
     title: "Farrel Athalla Putra | Software Engineer & AI Developer",
     description:
       "Software Engineer and UI/UX Designer building intelligent applications with AI, Machine Learning, and full-stack development.",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://farrel.me/og-image.png",
         width: 1200,
         height: 630,
         alt: "Farrel Athalla Putra - Software Engineer & AI Developer",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     title: "Farrel Athalla Putra | Software Engineer & AI Developer",
     description:
       "Software Engineer and UI/UX Designer building intelligent applications with AI, Machine Learning, and full-stack development.",
-    images: ["/og-image.png"],
+    images: ["https://farrel.me/og-image.png"],
     creator: "@farrelathalla",
   },
   icons: {
@@ -85,12 +85,12 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/site.webmanifest",
-  metadataBase: new URL("https://farrelathalla.com"),
+  metadataBase: new URL("https://farrel.me"),
   alternates: {
-    canonical: "https://farrelathalla.com",
+    canonical: "https://farrel.me",
   },
   verification: {
-    google: "your-google-verification-code",
+    google: "EEEsNjkO-u_7W9Vhn9iFiMfmYDdf7vsQpRmP_dZPyKM",
   },
 };
 
