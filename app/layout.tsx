@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
   title: {
-    default: "Farrel Athalla Putra | Software Engineer & AI Developer",
+    default: "Farrel Athalla Putra",
     template: "%s | Farrel Athalla Putra",
   },
   description:
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://farrel.me",
     siteName: "Farrel Athalla Putra",
-    title: "Farrel Athalla Putra | Software Engineer & AI Developer",
+    title: "Farrel Athalla Putra",
     description:
       "Software Engineer and UI/UX Designer building intelligent applications with AI, Machine Learning, and full-stack development.",
     images: [
@@ -52,13 +52,13 @@ export const metadata: Metadata = {
         url: "https://farrel.me/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Farrel Athalla Putra - Software Engineer & AI Developer",
+        alt: "Farrel Athalla Putra",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Farrel Athalla Putra | Software Engineer & AI Developer",
+    title: "Farrel Athalla Putra",
     description:
       "Software Engineer and UI/UX Designer building intelligent applications with AI, Machine Learning, and full-stack development.",
     images: ["https://farrel.me/og-image.png"],
